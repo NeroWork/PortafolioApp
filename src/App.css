@@ -14,6 +14,7 @@ body{
 }
 .row{
   padding: 0;
+  margin: 0;
 }
 .container{
   padding: 0;
@@ -40,8 +41,10 @@ body{
 
 .imgLogo{
   padding: 0;
-  width: 25rem;
-  height: 25rem;
+  min-height: 250px;
+  min-width: 250px;
+  height: 25vw;
+  width: 25vw;
 }
 
 div h1 {
@@ -52,31 +55,46 @@ div h1 {
 .firstRow{
   height: 100vh;
   max-width: 50rem;
+  justify-content: center;
+}
+
+.firstRow .order-1{
+  align-self: flex-end;
+  padding-bottom: 2rem;
+  width: fit-content;
+  max-width: fit-content;
 }
 
 .secondRow{
-  height: 100vh;
+  height: fit-content;
+  min-height: 80vh;
+  justify-content: space-evenly;
 }
-.secondRow .col{
-  padding: 0 1rem 0 1rem;
+.secondRow .col-lg{
+  margin: 1rem 0 1rem 0;
+  padding: 0 2rem 0 2rem;
 }
-.secondRow .col h2 {
+.secondRow .col-lg h2 {
   font-family: 'Sofia Sans Semi Condensed', sans-serif;
   color: aliceblue;
-  font-size: calc(2rem + .5vw);
+  font-size: calc(1rem + 2vw);
 }
-.secondRow .col p {
-  font-size: calc(1rem + .5vw);
+.secondRow .col-lg p {
+  font-size: calc(0.5rem + 1vw);
 }
 
 .thirdRow{
-  height: 100vh;
+  height: fit-content;
+  min-height: 100vh;
+}
+.thirdRow .container .row{
+  width: 100%;
 }
 .thirdRow .container .row h2 {
   margin-top: 1.5rem;
   font-family: 'Sofia Sans Semi Condensed', sans-serif;
   color: aliceblue;
-  font-size: calc(2rem + .5vw);
+  font-size: calc(0.5rem + 2.5vw);
 }
 
 .columCuadro{
@@ -87,5 +105,23 @@ div h1 {
   border-bottom: #67009f 3px solid;
   border-radius: 50%;
   margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
+}
+.title1{
+  margin: 0;
+  padding: 0 2rem 0 2rem;
+}
+
+@media screen and (min-width: 992px){
+  .secondRow .col-lg{
+    margin: 0 1rem 0 1rem;
+    padding: 0;
+  }
+  .firstRow{
+    align-items: center;
+  }
+  .firstRow .order-1{
+    align-self: center;
+    padding-bottom: 0;
+  }
 }
