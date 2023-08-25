@@ -43,8 +43,8 @@ body{
   padding: 0;
   min-height: 250px;
   min-width: 250px;
-  height: 25vw;
-  width: 25vw;
+  /* height: 25vw;
+  width: 25vw; */
 }
 
 div h1 {
@@ -67,7 +67,7 @@ div h1 {
 
 .secondRow{
   height: fit-content;
-  min-height: 80vh;
+  min-height: 100vh;
   justify-content: space-evenly;
 }
 .secondRow .col-lg{
@@ -81,6 +81,25 @@ div h1 {
 }
 .secondRow .col-lg p {
   font-size: calc(0.5rem + 1vw);
+}
+
+.row2-5{
+  height: fit-content;
+  min-height: 100vh;
+  justify-content: space-evenly;
+}
+.row2-5 .container{
+  height: 100vh;
+}
+.row2-5 .container .row{
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+.row2-5 .container .row h2{
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  color: aliceblue;
+  font-size: calc(1rem + 2vw);
 }
 
 .thirdRow{
@@ -97,6 +116,42 @@ div h1 {
   font-size: calc(0.5rem + 2.5vw);
 }
 
+.forthRow{
+  min-height: 100vh;
+  height: fit-content;
+  color: aliceblue;
+  font-size: calc(0.5rem + 2.5vw);
+}
+
+.logoProject{
+  width: 2.5em;
+}
+
+.col-project{
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  border-bottom: #67009f 3px solid;
+  border-radius: 50%;
+}
+
+.projectDescription{
+  color: aqua;
+  font-size: calc(0.5rem + 1vw);
+}
+
+.title2{
+  margin-top: 1.5rem;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  color: aliceblue;
+  font-size: calc(0.5rem + 2.5vw);
+}
+
+.title3{
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  color: aliceblue;
+  font-size: calc(1rem + 2.5vw);
+}
 .columCuadro{
   color: aqua;
 }

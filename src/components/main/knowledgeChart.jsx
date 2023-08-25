@@ -4,7 +4,7 @@ const KnowledgeChart = () => {
           <div className='container'>
             <div className='row title1 text-center'>
               <h2>
-              I still do not have much real experience in the labor field, but I have a solid foundation and a great desire to learn
+              I have learned a large number of tools in my personal projects, you can see them here along with the number of years I have worked with them
               </h2>
             </div>
             <div className='row'>
@@ -15,18 +15,23 @@ const KnowledgeChart = () => {
                 <div className='row'>
                   <div className='col-sm align-items-center columCuadro text-center'>
                     <p>Software developer</p>
-                    <p>Front End developer</p>
-                    <p>Git/+2</p>
+                    <p>Fullstack developer</p>
+                    <p>Git/3</p>
                   </div>
                   <div className='col-sm columCuadro text-center'>
-                    <p>C++/+2</p>
-                    <p>JavaScript/~1</p>
-                    <p>HTML/+1</p>
+                    <p>C++/3</p>
+                    <p>JavaScript/1</p>
+                    <p>HTML/2</p>
                   </div>
                   <div className='col-md columCuadro text-center'>
-                    <p>CSS/+1</p>
-                    <p>React/~1</p>
-                    <p>Node.js/~1</p>
+                    <p>CSS/2</p>
+                    <p>React/1</p>
+                    <p>Node.js/1</p>
+                  </div>
+                  <div className='col-md columCuadro text-center'>
+                    <p>MongoDB/1</p>
+                    <p>Express/1</p>
+                    <p>Passport/1</p>
                   </div>
                 </div>
               </div>

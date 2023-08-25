@@ -8,7 +8,7 @@ const AboutMe = () => {
           <div className='col-lg my-auto'>
             <h2>Things I did</h2>
             <p>I have extensive experience in C++, the language I learned in college. In fact, in addition to the large number of problems solved, I also created my own video game on it.
-            I also have a formal education in web development with HTML, CSS, JS, React, among other tools. I did several courses with CoderHouse, you can see them at LinkedIn along with some projects ;)</p>
+            I also have a formal education in web development with HTML, CSS, JS, and React on the front-end; and with MongoDB, Node, Passport, Express, and other tools in back-end. I did several courses with CoderHouse, you can see them at LinkedIn along with some projects ;)</p>
           </div>
         </div>
     )
